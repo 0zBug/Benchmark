@@ -41,7 +41,7 @@ return function(Duration, Function, ...)
         Average = Time / Count,
         Total = os.clock() - Start,
         Count = Count,
-        CycleTime = (os.clock() - Start) / Count
+        CycleTime = (os.clock() - Start) / Count,
         Duration = Duration
     }
 end
